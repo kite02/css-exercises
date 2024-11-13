@@ -2,9 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-  
-  grid-template-columns: 25vh 25vh 25vh 25vh;
-  grid-template-rows: 25vh 25vh 25vh 25vh;
+
 }
 
 .container {
@@ -13,7 +11,9 @@ html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  gap: 20px;
+  gap: 15px;
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 100px 100px 500px 100px;
 }
 
 .container div {
